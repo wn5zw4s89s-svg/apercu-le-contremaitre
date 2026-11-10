@@ -1,0 +1,15 @@
+/*
+  RÉGLAGES DU SITE — à modifier ici, nulle part ailleurs.
+  Prix recommandé par le mémo du 11/11/2026 (prix-et-conformite/00-memo-decision.md),
+  PAS encore décidé par Joseph. Option annuelle : à confirmer.
+*/
+window.SITE_CONFIG = {
+  prixMensuel: 99,                                      // euros par mois
+  mentionTVA: "TVA non applicable (art. 293 B du CGI)", // franchise en base ; si TVA un jour : "HT"
+  prixStatut: "à valider par Joseph",                   // texte de l'étiquette ; "" pour la masquer
+  prixAnnuel: 990,                                      // option annuelle (2 mois offerts) ; null pour la retirer
+  prixAnnuelStatut: "option à confirmer",               // "" une fois confirmée
+  fraisCreation: 0,
+  emailContact: "",                                     // [ADRESSE D'ENVOI] à choisir par Joseph (pas la boîte de l'assistant) ; vide = formulaire inactif
+  apercu: true                                          // true = bandeau « Aperçu non public »
+};
