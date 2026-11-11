@@ -101,6 +101,7 @@ section{padding:112px 0}
 .etapes li::before{content:counter(e);font-family:'Bricolage Grotesque';font-weight:800;font-size:64px;line-height:1;color:var(--encre);display:block;margin-bottom:18px;letter-spacing:-.04em}
 .etapes .temps{display:inline-block;margin-top:16px;font-size:14px;font-weight:600;color:var(--ardoise);background:var(--craie);border-radius:999px;padding:5px 12px}
 .etapes p{margin-top:10px;color:var(--ardoise);font-size:17px}
+.comment .wrap > p{margin-top:36px;max-width:760px;font-size:18px}
 .moi{margin-top:20px;display:grid;grid-template-columns:1fr 1fr;gap:20px}
 .moi .card{box-shadow:none;background:transparent;border:2px solid var(--platre)}
 .moi ul{margin:14px 0 0;padding-left:20px}

@@ -6,9 +6,9 @@
 window.SITE_CONFIG = {
   prixMensuel: 99,                                      // euros par mois
   mentionTVA: "TVA non applicable (art. 293 B du CGI)", // franchise en base ; si TVA un jour : "HT"
-  prixStatut: "à valider par Joseph",                   // texte de l'étiquette ; "" pour la masquer
+  prixStatut: "",                                       // interne : "à valider par Joseph" ; "" = étiquette masquée
   prixAnnuel: 990,                                      // option annuelle (2 mois offerts) ; null pour la retirer
-  prixAnnuelStatut: "option à confirmer",               // "" une fois confirmée
+  prixAnnuelStatut: "",                                 // interne : option annuelle à confirmer ; "" = ne pas l'afficher
   fraisCreation: 0,
   emailContact: "",                                     // [ADRESSE D'ENVOI] à choisir par Joseph (pas la boîte de l'assistant) ; vide = formulaire inactif
   apercu: true                                          // true = bandeau « Aperçu non public »

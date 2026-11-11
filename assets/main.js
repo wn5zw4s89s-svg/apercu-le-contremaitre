@@ -44,7 +44,7 @@
       e.preventDefault();
       if (!c.emailContact) {
         var n = document.getElementById('form-etat');
-        if (n) n.textContent = 'Aperçu : l\u2019adresse d\u2019envoi n\u2019est pas encore choisie, rien n\u2019est envoyé.';
+        if (n) n.textContent = 'Le formulaire n\u2019est pas encore actif. Rien n\u2019est envoyé.';
         return;
       }
       var d = new FormData(f);
